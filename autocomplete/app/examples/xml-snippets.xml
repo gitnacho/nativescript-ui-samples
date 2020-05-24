@@ -1,6 +1,6 @@
 <navigation:ExamplePage loaded="onPageLoaded"
-xmlns:navigation="navigation/example-page" 
-xmlns:au="nativescript-ui-autocomplete" 
+xmlns:navigation="navigation/example-page"
+xmlns:au="nativescript-ui-autocomplete"
 xmlns="http://www.nativescript.org/tns.xsd">
 <StackLayout>
 <!-- >> autocomplete-completion-mode -->
@@ -21,4 +21,3 @@ xmlns="http://www.nativescript.org/tns.xsd">
 
 </StackLayout>
 </navigation:ExamplePage>
-

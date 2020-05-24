@@ -3,7 +3,7 @@
         <ActionBar title="Populating with data" />
     </navigation.actionBar>
 	<GridLayout rows="*, 100" orientation="vertical">
-        <rc:RadCalendar id="calendar" 
+        <rc:RadCalendar id="calendar"
 		    eventSource="{{ eventSource }}"
             dateSelected="onDateSelected"
             row="0"/>

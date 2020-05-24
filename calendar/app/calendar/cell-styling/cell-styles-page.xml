@@ -194,7 +194,7 @@
     </rc:CalendarYearViewStyle>
 </rc:RadCalendar.yearViewStyle>
     <!-- << calendar-yearview-styling -->
-    
+
     <!-- >> calendar-monthnamesview-styling -->
 <rc:RadCalendar.monthNamesViewStyle>
     <rc:CalendarMonthNamesViewStyle>

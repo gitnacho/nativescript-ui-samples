@@ -1,5 +1,5 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" xmlns:gauge="nativescript-ui-gauge" xmlns="http://www.nativescript.org/tns.xsd">
-    
+
     <gauge:RadRadialGauge title="celsius" subtitle="fahrenheit">
         <gauge:RadRadialGauge.titleStyle>
             <gauge:TitleStyle textColor="gray" ios:textSize="12" ios:verticalOffset="30" android:verticalOffset="90" />

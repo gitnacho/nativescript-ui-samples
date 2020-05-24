@@ -18,5 +18,5 @@
             <chart:RadLegendView position="Top" title="Financial data" height="150"/>
         </chart:RadCartesianChart.legend>
     </chart:RadCartesianChart>
-     
+
 </navigation:ExamplePage>

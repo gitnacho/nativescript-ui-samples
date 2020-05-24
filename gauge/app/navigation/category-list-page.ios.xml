@@ -1,4 +1,4 @@
-<Page 
+<Page
     xmlns="http://www.nativescript.org/tns.xsd"
     loaded="pageLoaded"
     navigatingFrom="onPageNavigatingFrom"
@@ -16,7 +16,7 @@
                 <StackLayout class="itemStackLayout">
                     <Label text="{{ title }}" textWrap="true" class="titleLabel"/>
                     <StackLayout height="1" backgroundColor="#EEEEEE"/>
-                </StackLayout> 
+                </StackLayout>
             </ListView.itemTemplate>
         </ListView>
     </GridLayout>

@@ -12,7 +12,7 @@
             <chart:ScatterSeries items="{{ scatterSource }}" xProperty="Age" yProperty="Salary"></chart:ScatterSeries>
             <chart:ScatterSeries items="{{ scatterSource }}" xProperty="Age" yProperty="Spendings"></chart:ScatterSeries>
         </chart:RadCartesianChart.series>
-    
+
         <!-- >> grid-line-annotations -->
         <chart:RadCartesianChart.annotations>
 		    <chart:ChartGridLineAnnotation axisId="hAxis" hidden="false" value="50" zPosition="AboveSeries"

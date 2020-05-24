@@ -39,7 +39,7 @@
                 <StackLayout orientation="vertical" style.backgroundColor="yellow">
                     <Label fontSize="20" text="{{ itemName }}" color="black" margin="5"/>
                     <Label fontSize="17" text="{{ type }}" color="black" margin="0 5 0 5"/>
-                    <Label fontSize="14" text="{{ itemDescription }}" color="black" margin="5"/>                
+                    <Label fontSize="14" text="{{ itemDescription }}" color="black" margin="5"/>
                 </StackLayout>
             </template>
         </lv:RadListView.itemTemplates>

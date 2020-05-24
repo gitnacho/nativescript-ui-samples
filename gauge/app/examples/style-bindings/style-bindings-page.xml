@@ -16,24 +16,24 @@
                         <gauge:ScaleStyle majorTicksCount="{{ majorTicksCount }}" minorTicksCount="{{ minorTicksCount }}" lineThickness="{{ lineThickness }}" lineColor="{{ lineColor }}" majorTicksWidth="{{ majorTicksWidth }}" minorTicksWidth="{{ minorTicksWidth }}"
                             labelsColor="{{ labelsColor }}" labelsCount="{{ labelsCount }}" android:labelsSize="{{ androidLabelsSize }}" ios:labelsSize="{{ iosLabelsSize }}" labelsVisible="{{ labelsVisible }}" />
                     </gauge:RadialScale.scaleStyle>
-                
+
                     <gauge:RadialScale.indicators>
                         <gauge:RadialBarIndicator minimum="0" maximum="{{ firstPoint }}" location="0.97">
                             <gauge:RadialBarIndicator.indicatorStyle>
-                                <gauge:BarIndicatorStyle fillColor="{{ firstColor }}" /> 
-                            </gauge:RadialBarIndicator.indicatorStyle> 
+                                <gauge:BarIndicatorStyle fillColor="{{ firstColor }}" />
+                            </gauge:RadialBarIndicator.indicatorStyle>
                         </gauge:RadialBarIndicator>
 
                         <gauge:RadialBarIndicator minimum="{{ firstPoint }}" maximum="{{ secondPoint }}" location="0.97">
                             <gauge:RadialBarIndicator.indicatorStyle>
-                                <gauge:BarIndicatorStyle fillColor="{{ secondColor }}" /> 
-                            </gauge:RadialBarIndicator.indicatorStyle> 
+                                <gauge:BarIndicatorStyle fillColor="{{ secondColor }}" />
+                            </gauge:RadialBarIndicator.indicatorStyle>
                         </gauge:RadialBarIndicator>
 
                         <gauge:RadialBarIndicator minimum="{{ secondPoint }}" maximum="180" location="0.97">
                             <gauge:RadialBarIndicator.indicatorStyle>
                                 <gauge:BarIndicatorStyle fillColor="#A7010E" barWidth="{{ barWidth }}" />
-                            </gauge:RadialBarIndicator.indicatorStyle> 
+                            </gauge:RadialBarIndicator.indicatorStyle>
                         </gauge:RadialBarIndicator>
 
                         <gauge:RadialNeedle value="{{ needleValue }}">
@@ -43,7 +43,7 @@
                             </gauge:RadialNeedle.needleStyle>
                         </gauge:RadialNeedle>
                     </gauge:RadialScale.indicators>
-                    
+
                 </gauge:RadialScale>
             </gauge:RadRadialGauge.scales>
         </gauge:RadRadialGauge>

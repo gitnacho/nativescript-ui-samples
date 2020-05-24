@@ -9,7 +9,7 @@
     <GridLayout rows="*, auto">
     <!-- >> calendar-localization-xml -->
 	    <calendar:RadCalendar id="calendar" locale="is-IS" row="0" />
-    <!-- << calendar-localization-xml -->        
+    <!-- << calendar-localization-xml -->
         <WrapLayout row="1" orientation="horizontal">
             <Button margin="5" tap="btnChangeLocaleTap" text="ru-RU"/>
             <Button margin="5" tap="btnChangeLocaleTap" text="bg-BG"/>

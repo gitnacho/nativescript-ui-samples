@@ -1,6 +1,6 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" xmlns:gauge="nativescript-ui-gauge" xmlns="http://www.nativescript.org/tns.xsd">
     <!-- >> gauges-getting-started-add -->
-    <gauge:RadRadialGauge> 
+    <gauge:RadRadialGauge>
         <!-- >> (hide) -->
         <!-- >> gauges-getting-started-add-scale-indicators -->
         <gauge:RadRadialGauge.scales>
@@ -14,25 +14,25 @@
                     <gauge:RadialBarIndicator minimum="0" maximum="1.2" location="0.97">
                         <gauge:RadialBarIndicator.indicatorStyle>
                             <gauge:BarIndicatorStyle fillColor="#dddddd" />
-                        </gauge:RadialBarIndicator.indicatorStyle> 
+                        </gauge:RadialBarIndicator.indicatorStyle>
                     </gauge:RadialBarIndicator>
 
                     <gauge:RadialBarIndicator minimum="1.2" maximum="2.4" location="0.97">
                         <gauge:RadialBarIndicator.indicatorStyle>
                             <gauge:BarIndicatorStyle fillColor="#9DCA56" />
-                        </gauge:RadialBarIndicator.indicatorStyle> 
+                        </gauge:RadialBarIndicator.indicatorStyle>
                     </gauge:RadialBarIndicator>
 
                     <gauge:RadialBarIndicator minimum="2.4" maximum="3.6" location="0.97">
                         <gauge:RadialBarIndicator.indicatorStyle>
                             <gauge:BarIndicatorStyle fillColor="#F0C44D" />
-                        </gauge:RadialBarIndicator.indicatorStyle> 
+                        </gauge:RadialBarIndicator.indicatorStyle>
                     </gauge:RadialBarIndicator>
 
                     <gauge:RadialBarIndicator minimum="3.6" maximum="4.8" location="0.97">
                         <gauge:RadialBarIndicator.indicatorStyle>
                             <gauge:BarIndicatorStyle fillColor="#E27633" />
-                        </gauge:RadialBarIndicator.indicatorStyle> 
+                        </gauge:RadialBarIndicator.indicatorStyle>
                     </gauge:RadialBarIndicator>
 
                     <gauge:RadialBarIndicator minimum="4.8" maximum="6" location="0.97">

@@ -3,7 +3,7 @@
         <ActionBar title="Events" />
     </navigation.actionBar>
     <!-- >> calendar-handling-events-xml -->
-    <rc:RadCalendar id="calendar" 
+    <rc:RadCalendar id="calendar"
 	   dateSelected="onDateSelected"
 	   dateDeselected="onDateDeselected"
 	   navigatedToDate="onNavigatedToDate"

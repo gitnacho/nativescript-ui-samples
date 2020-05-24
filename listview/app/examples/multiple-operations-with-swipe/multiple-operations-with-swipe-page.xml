@@ -1,15 +1,15 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" xmlns:lv="nativescript-ui-listview" xmlns="http://www.nativescript.org/tns.xsd">
     <GridLayout rows="*, 40">
-        <lv:RadListView itemTap="onItemTap" 
-                        id="myListView" 
-                        items="{{ dataItems }}" 
+        <lv:RadListView itemTap="onItemTap"
+                        id="myListView"
+                        items="{{ dataItems }}"
                         sortingFunction="{{ mySortingFunc }}"
                         filteringFunction="{{ myFilteringFunc }}"
                         groupingFunction="{{ myGroupingFunc }}"
                         itemSwipeProgressEnded="onSwipeCellFinished"
-                        itemSwipeProgressStarted="onSwipeCellStarted" 
+                        itemSwipeProgressStarted="onSwipeCellStarted"
                         itemSwipeProgressChanged="onCellSwiping"
-                        itemSwiping="onItemSwiping" 
+                        itemSwiping="onItemSwiping"
                         swipeActions="true">
             <lv:RadListView.itemTemplate>
                 <StackLayout orientation="vertical" backgroundColor="White">

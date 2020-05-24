@@ -3,12 +3,12 @@
 		<lv:RadListView items="{{ blogPosts }}" id="myListView"
             groupingFunction="{{ groupByDay }}"
             pullToRefresh="true" pullToRefreshInitiated="{{ onPullToRefreshInitiated }}"
-            loadOnDemandMode="Manual" loadMoreDataRequested="{{ onLoadMoreDataRequested }}" 
+            loadOnDemandMode="Manual" loadMoreDataRequested="{{ onLoadMoreDataRequested }}"
             selectionBehavior="None" swipeActions="true"
-            itemSwipeProgressStarted="{{ onItemSwipeProgressStarted }}" 
-            itemSwipeProgressChanged="{{ onItemSwipeProgressChanged }}" 
+            itemSwipeProgressStarted="{{ onItemSwipeProgressStarted }}"
+            itemSwipeProgressChanged="{{ onItemSwipeProgressChanged }}"
             itemSwipeProgressEnded="{{ onItemSwipeProgressEnded }}">
-		
+
 			<lv:RadListView.itemTemplate>
                 <StackLayout padding="16" orientation="vertical" background="#F0F6FF">
                     <Label fontSize="24" text="{{ title }}" textWrap="true" color="#0A255A"></Label>

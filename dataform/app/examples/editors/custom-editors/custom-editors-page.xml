@@ -7,9 +7,9 @@
             <!-- >> dataform-editor-custom-xml -->
             <df:EntityProperty name="age" index="1">
                 <df:EntityProperty.editor>
-                    <df:CustomPropertyEditor 
-                        editorNeedsView="editorNeedsView" 
-                        editorHasToApplyValue="editorHasToApplyValue" 
+                    <df:CustomPropertyEditor
+                        editorNeedsView="editorNeedsView"
+                        editorHasToApplyValue="editorHasToApplyValue"
                         editorNeedsValue="editorNeedsValue"/>
                 </df:EntityProperty.editor>
             </df:EntityProperty>

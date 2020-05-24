@@ -1,7 +1,7 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" navigatingTo="onPageNavigatingTo"
     xmlns:df="nativescript-ui-dataform" xmlns="http://www.nativescript.org/tns.xsd">
 
-    <df:RadDataForm id="myDataForm" source="{{ settings }}" 
+    <df:RadDataForm id="myDataForm" source="{{ settings }}"
         editorUpdate="dfEditorUpdate">
         <df:RadDataForm.properties>
             <df:EntityProperty name="onlyOnWiFi" index="0">

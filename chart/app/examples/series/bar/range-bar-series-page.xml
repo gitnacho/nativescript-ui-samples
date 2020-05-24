@@ -1,11 +1,11 @@
 <!-- >> range-bar-series -->
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" xmlns:chart="nativescript-ui-chart" xmlns="http://www.nativescript.org/tns.xsd">
       <chart:RadCartesianChart>
-            
+
             <chart:RadCartesianChart.verticalAxis>
                 <chart:LinearAxis horizontalLocation="Left" labelSize="11" />
             </chart:RadCartesianChart.verticalAxis>
-           
+
             <chart:RadCartesianChart.horizontalAxis>
                 <chart:CategoricalAxis verticalLocation="Bottom" labelSize="11" />
             </chart:RadCartesianChart.horizontalAxis>

@@ -3,7 +3,7 @@
         <Label text="Select country:"/>
         <!-- >> autocomplete-events-xml -->
         <au:RadAutoCompleteTextView id="autocomplete" items="{{ dataItems }}"
-          suggestMode="Suggest" displayMode="Tokens" 
+          suggestMode="Suggest" displayMode="Tokens"
           suggestionViewBecameVisible="{{ onSuggestionViewBecameVisible }}"
           didAutoComplete="{{ onDidAutoComplete }}" textChanged="{{ onTextChanged }}"
           tokenAdded="{{ onTokenAdded}}" tokenRemoved="{{ onTokenRemoved }}"

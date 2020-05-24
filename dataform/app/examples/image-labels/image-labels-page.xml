@@ -24,7 +24,7 @@
                     <df:PropertyEditor type="Number"/>
                 </df:EntityProperty.editor>
             </df:EntityProperty>
-        </df:RadDataForm.properties>        
+        </df:RadDataForm.properties>
     </df:RadDataForm>
 
 </navigation:ExamplePage>

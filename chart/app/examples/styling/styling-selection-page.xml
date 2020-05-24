@@ -1,5 +1,5 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" xmlns:chart="nativescript-ui-chart" xmlns="http://www.nativescript.org/tns.xsd">
-   
+
     <chart:RadCartesianChart id="cartesianChart" seriesSelectionMode="Multiple">
         <chart:RadCartesianChart.horizontalAxis>
             <chart:CategoricalAxis lineColor="Red" lineThickness="1" />
@@ -7,7 +7,7 @@
         <chart:RadCartesianChart.verticalAxis>
             <chart:LinearAxis lineColor="Blue" lineThickness="1" />
         </chart:RadCartesianChart.verticalAxis>
-    
+
         <chart:RadCartesianChart.series>
             <chart:BarSeries seriesName="myBar" selectionMode="DataPoint"
                 items="{{ categoricalSource }}" categoryProperty="Country" valueProperty="Amount">
@@ -58,7 +58,7 @@
         </chart:RadCartesianChart.palettes>
 
         <chart:RadCartesianChart.grid>
-            <chart:RadCartesianChartGrid 
+            <chart:RadCartesianChartGrid
                 horizontalLinesVisible="true" verticalLinesVisible="false"
                 horizontalStripLinesVisible="true" verticalStripLinesVisible="false"
                 horizontalStrokeColor="#e5e5e5"

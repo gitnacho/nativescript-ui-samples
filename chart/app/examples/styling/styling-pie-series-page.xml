@@ -24,12 +24,12 @@
                     </chart:Palette.entries>
                 </chart:Palette>
             </chart:RadPieChart.palettes>
-            
+
             <chart:RadPieChart.legend>
                 <chart:RadLegendView position="Floating" offsetOrigin="TopRight" width="110"/>
             </chart:RadPieChart.legend>
         </chart:RadPieChart>
-    
+
         <chart:RadPieChart id="donutChart" allowAnimation="true" row="1">
             <chart:RadPieChart.series>
                 <chart:DonutSeries
@@ -55,10 +55,10 @@
                     </chart:Palette.entries>
                 </chart:Palette>
             </chart:RadPieChart.palettes>
-            
+
             <chart:RadPieChart.legend>
                 <chart:RadLegendView position="Floating" offsetOrigin="TopRight" width="110"/>
             </chart:RadPieChart.legend>
-        </chart:RadPieChart> 
+        </chart:RadPieChart>
     </GridLayout>
 </navigation:ExamplePage>

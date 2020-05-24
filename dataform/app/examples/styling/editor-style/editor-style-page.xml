@@ -12,7 +12,7 @@
                             </df:PropertyEditor.propertyEditorStyle>
                         </df:PropertyEditor>
                     </df:EntityProperty.editor>
-                </df:EntityProperty>                
+                </df:EntityProperty>
                 <df:EntityProperty name="age">
                     <df:EntityProperty.editor>
                         <df:PropertyEditor type="Decimal">

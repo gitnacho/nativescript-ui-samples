@@ -1,4 +1,4 @@
-<Page 
+<Page
     xmlns="http://www.nativescript.org/tns.xsd"
     xmlns:lv="nativescript-ui-listview"
     loaded="pageLoaded"
@@ -17,7 +17,7 @@
                 <StackLayout class="itemStackLayout">
                     <Label text="{{ title }}" textWrap="true" class="titleLabel"/>
                     <StackLayout height="1" backgroundColor="#EEEEEE"/>
-                </StackLayout> 
+                </StackLayout>
             </lv:RadListView.itemTemplate>
         </lv:RadListView>
     </GridLayout>

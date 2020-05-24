@@ -7,7 +7,7 @@
                 <gauge:RadialScale.scaleStyle>
                     <gauge:ScaleStyle ticksVisible="false" labelsVisible="false" lineThickness="0" />
                 </gauge:RadialScale.scaleStyle>
-            
+
                 <gauge:RadialScale.indicators>
                     <gauge:RadialBarIndicator minimum="0" maximum="100" location="0.5">
                         <gauge:RadialBarIndicator.indicatorStyle>
@@ -45,7 +45,7 @@
                         </gauge:RadialBarIndicator.indicatorStyle>
                     </gauge:RadialBarIndicator>
                 </gauge:RadialScale.indicators>
-                
+
             </gauge:RadialScale>
         </gauge:RadRadialGauge.scales>
     </gauge:RadRadialGauge>

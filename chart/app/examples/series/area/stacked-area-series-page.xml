@@ -1,5 +1,5 @@
 <!-- >> stacked-series -->
-<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" navigatedTo="onNavigatedTo" xmlns:chart="nativescript-ui-chart" xmlns="http://www.nativescript.org/tns.xsd"> 
+<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" navigatedTo="onNavigatedTo" xmlns:chart="nativescript-ui-chart" xmlns="http://www.nativescript.org/tns.xsd">
     <navigation.actionBar>
          <ActionBar>
             <ActionBar.actionItems>

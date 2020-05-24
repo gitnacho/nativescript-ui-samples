@@ -13,20 +13,20 @@
                             </df:EntityProperty.validators>
                         </df:EntityProperty>
                         <df:EntityProperty name="password" index="1" >
-                            <df:EntityProperty.editor> 
+                            <df:EntityProperty.editor>
                                 <df:PropertyEditor type="Password" />
                             </df:EntityProperty.editor>
                             <df:EntityProperty.validators>
                                 <df:MinimumLengthValidator length="6"/>
                             </df:EntityProperty.validators>
                         </df:EntityProperty>
-                        <df:EntityProperty name="email" index="2" >                
-                            <df:EntityProperty.editor> 
+                        <df:EntityProperty name="email" index="2" >
+                            <df:EntityProperty.editor>
                                 <df:PropertyEditor type="Email" />
                             </df:EntityProperty.editor>
                             <df:EntityProperty.validators>
                                 <df:EmailValidator />
-                            </df:EntityProperty.validators>        
+                            </df:EntityProperty.validators>
                         </df:EntityProperty>
                     </df:RadDataForm.properties>
                 </df:RadDataForm>

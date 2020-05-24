@@ -8,7 +8,7 @@
       "name": "username",
       "index": 0,
       "validators": [
-          { "name": "NonEmpty" }, 
+          { "name": "NonEmpty" },
           { "name": "MaximumLength", "params": { "length": 10 } }
       ]
     },

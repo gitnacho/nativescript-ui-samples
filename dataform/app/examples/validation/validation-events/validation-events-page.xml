@@ -1,6 +1,6 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" navigatingTo="onPageNavigatingTo" xmlns:df="nativescript-ui-dataform" xmlns="http://www.nativescript.org/tns.xsd">
     <StackLayout>
-        <df:RadDataForm id="myDataForm" source="{{ registeringUser }}" 
+        <df:RadDataForm id="myDataForm" source="{{ registeringUser }}"
             propertyValidate="dfPropertyValidate"
             propertyValidated="dfPropertyValidated">
             <df:RadDataForm.properties>
@@ -10,17 +10,17 @@
                     </df:EntityProperty.validators>
                 </df:EntityProperty>
                 <df:EntityProperty name="password" index="1" >
-                    <df:EntityProperty.editor> 
+                    <df:EntityProperty.editor>
                         <df:PropertyEditor type="Password" />
                     </df:EntityProperty.editor>
                     <df:EntityProperty.validators>
                         <df:MinimumLengthValidator length="6"/>
                     </df:EntityProperty.validators>
                 </df:EntityProperty>
-                <df:EntityProperty name="password2" index="2" displayName="Confirm Password">                
-                    <df:EntityProperty.editor> 
+                <df:EntityProperty name="password2" index="2" displayName="Confirm Password">
+                    <df:EntityProperty.editor>
                         <df:PropertyEditor type="Password" />
-                    </df:EntityProperty.editor>     
+                    </df:EntityProperty.editor>
                 </df:EntityProperty>
             </df:RadDataForm.properties>
         </df:RadDataForm>

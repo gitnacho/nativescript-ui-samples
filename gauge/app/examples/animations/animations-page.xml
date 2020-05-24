@@ -8,7 +8,7 @@
             <gauge:RadRadialGauge.scales>
                 <gauge:RadialScale minimum="0" maximum="180" radius="0.98">
                     <gauge:RadialScale.scaleStyle>
-                        <gauge:ScaleStyle lineThickness="0" labelsCount="10" majorTicksCount="19" minorTicksCount="1" 
+                        <gauge:ScaleStyle lineThickness="0" labelsCount="10" majorTicksCount="19" minorTicksCount="1"
                           ticksOffset="0.1" majorTicksStrokeWidth="2" majorTicksStrokeColor="rgb(132, 132, 132)" />
                     </gauge:RadialScale.scaleStyle>
                     <!-- >> gauge-indicators-add-needle-xml -->
@@ -34,7 +34,7 @@
                         <!-- <<  (hide) -->
                         <gauge:RadialNeedle isAnimated="true" animationDuration="500">
                             <gauge:RadialNeedle.needleStyle>
-                                <gauge:NeedleStyle length="0.8" android:topWidth="8" android:bottomWidth="8" ios:topWidth="2" ios:bottomWidth="2" />    
+                                <gauge:NeedleStyle length="0.8" android:topWidth="8" android:bottomWidth="8" ios:topWidth="2" ios:bottomWidth="2" />
                             </gauge:RadialNeedle.needleStyle>
                         </gauge:RadialNeedle>
                     </gauge:RadialScale.indicators>

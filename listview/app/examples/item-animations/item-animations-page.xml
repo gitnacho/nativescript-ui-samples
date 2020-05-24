@@ -1,8 +1,8 @@
-<navigation:ExamplePage xmlns:navigation="navigation/example-page" 
-                        xmlns:lv="nativescript-ui-listview" 
+<navigation:ExamplePage xmlns:navigation="navigation/example-page"
+                        xmlns:lv="nativescript-ui-listview"
                         xmlns="http://www.nativescript.org/tns.xsd"
-                        loaded="onPageLoaded" 
-                        navigatedTo="onNavigatedTo" 
+                        loaded="onPageLoaded"
+                        navigatedTo="onNavigatedTo"
                         navigatedFrom="onNavigatedFrom" >
 <navigation.actionBar>
         <ActionBar title="View modes">
@@ -18,7 +18,7 @@
              </android>
             </ActionBar.actionItems>
         </ActionBar>
-    </navigation.actionBar>  
+    </navigation.actionBar>
     <GridLayout orientation="vertical" rows="50, *">
     <StackLayout orientation="vertical" backgroundColor="#f8f8f8">
      <StackLayout row="0" orientation="horizontal" horizontalAlignment="center">
@@ -28,7 +28,7 @@
             <Button text="Reset" tap="{{ onResetClick }}" ios:margin="10"/>
         </StackLayout>
         </StackLayout>
-        <!-- >> listview-item-animations-xml -->  
+        <!-- >> listview-item-animations-xml -->
         <lv:RadListView items="{{ dataItems }}" row="1" id="ls">
             <lv:RadListView.listViewLayout>
                  <lv:ListViewLinearLayout scrollDirection="Vertical" itemInsertAnimation="Default" itemDeleteAnimation="Default"/>
@@ -40,6 +40,6 @@
                 </StackLayout>
             </lv:RadListView.itemTemplate>
          </lv:RadListView>
-        <!-- << listview-item-animations-xml --> 
+        <!-- << listview-item-animations-xml -->
     </GridLayout>
 </navigation:ExamplePage>

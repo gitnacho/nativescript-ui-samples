@@ -1,4 +1,4 @@
-<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="pageLoaded" navigatedTo="onNavigatedTo"  
+<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="pageLoaded" navigatedTo="onNavigatedTo"
     xmlns:nsDrawer="nativescript-ui-sidedrawer"
     xmlns="http://www.nativescript.org/tns.xsd">
     <nsDrawer:RadSideDrawer id="sideDrawer">
@@ -35,5 +35,5 @@
           </StackLayout>
         </ScrollView>
       </nsDrawer:RadSideDrawer.mainContent>
-    </nsDrawer:RadSideDrawer> 
+    </nsDrawer:RadSideDrawer>
 </navigation:ExamplePage>

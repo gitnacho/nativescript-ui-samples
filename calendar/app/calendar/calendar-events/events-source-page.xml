@@ -1,4 +1,4 @@
-<navigation:ExamplePage 
+<navigation:ExamplePage
     xmlns:navigation="navigation/example-page"
     xmlns:calendar="nativescript-ui-calendar"
     loaded="onPageLoaded" navigatedTo="onNavigatedTo"
